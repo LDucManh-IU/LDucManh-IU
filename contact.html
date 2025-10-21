@@ -14,12 +14,35 @@
         <nav>
             <a href="index.html" >Home</a>
         
-            <a href="services.html">Services</a>
-            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="gallery.html">Gallery</a>
             <a href="about.html">About</a>
             <a href="" class="active">Contact</a>
         </nav>
     </header>
-    
+    <section class="contact">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form" class="form-container">
+            <input type="hidden" name="access_key" value="778e3f71-0b46-4f3c-aaed-0ecf99c79a63">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+            <input type="hidden" name="from_name" value="Your Website Name">
+                <h2>Contact Me!</h2>
+                <hr>
+
+                <label for="name">Full name:</label>
+                <input type="text" placeholder="Your name" id="name" name="name" class="info" autocomplete="off" required>
+
+                <label for="phone">Phone number:</label>
+                <input type="text" placeholder="Phone number" id="phone" name="phone" class="info" autocomplete="off" required>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Your email" id="mail" name="mail" class="info" autocomplete="off" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" class="info"></textarea>
+
+                <button type="submit"> Submit <img src="assets/images/submit.webp" alt="submit"> </button>
+            </div>
+        </form>
+    </section>
 </body>
 </html>
